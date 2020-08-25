@@ -252,11 +252,6 @@ function save() {
         }
 
     </style>
-<script>
-if(window.innerHeight > window.innerWidth){
-    location.href = "/mobile"
-}
-</script>
 </head>
     `
     scrape += `<body onresize="size()">` + document.body.innerHTML + `</body></html>`
